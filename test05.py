@@ -13,13 +13,36 @@
 # is_ready = True
 # print(is_ready, type(is_ready))  # True <class 'bool'>
 
+# import math
+
+# a = 33
+# b = 0
+# c = -22
+# d = 2**8
+# e = a * c
+# f = int("886")
+# g = abs(c)
+# h = math.ceil(3.3)
+
+# n = 44
+# n_2 = 0b101100
+# n_8 = 0o54
+# n_16 = 0x2C
+# # 将打印 True True True
+# print(n == n_2, n == n_8, n == n_16)
+# # 将打印 44 0b101100 0o54 0x2c
+# print(n, bin(n), oct(n), hex(n))
+
 import math
 
-a = 33
-b = 0
-c = -22
-d = 2**8
-e = a * c
-f = int("886")
-g = abs(c)
-h = math.ceil(3.3)
+a = 3.0
+b = 0.1415
+c = -2.78e6
+d = 3.14e-2
+f = 3 / 2  # 除法运算总是产生一个浮点数
+g = 2 * a  # 不同类型的二元运算产生的类型总是会被拓宽
+h = float("33")
+i = math.sin(2)  # 该函数的返回类型是浮点数
+
+temp = "'好用的\nVS Cod\x65'"
+print(len(temp))
