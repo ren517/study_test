@@ -45,4 +45,19 @@ h = float("33")
 i = math.sin(2)  # 该函数的返回类型是浮点数
 
 temp = "'好用的\nVS Cod\x65'"
+print(temp)
 print(len(temp))
+
+print("\U0001f923")
+
+print("\41")
+
+x = -0.0314
+print(f"{x:e}")
+print(f"{x:E}")
+print(f"{x:.2%}")
+
+
+n = 66
+print(f"{n:b}")
+print(f"{n:+d}")
