@@ -5,7 +5,6 @@ import math
 alpha = math.radians(30)
 
 print(f"2sin a * cos a = {2 * math.sin(alpha) * math.cos(alpha)}")
-
 print(f"sin2a = {math.sin(2 * alpha)}")
 
 print(f"tan2a = {math.tan(2 * alpha)}")
